@@ -1,0 +1,44 @@
+.header {
+  top: 0px;
+  margin-bottom: 5%;
+  background-color: blue;
+  height: 5em;
+  border-bottom: 2px solid black;
+}
+.header-left {
+  position: relative;
+  float: left;
+  left: 0;
+  height: 100%
+}
+.logo {
+  margin: 5%;
+}
+.info-main{
+  margin-bottom: 2%;
+  background-color: yellow;
+  height: 25em;
+  border-bottom: 2px solid gold;
+}
+.info-botton {
+  margin-bottom: 0%;
+  background-color: orange;
+  height: 5em;
+  border-bottom: 2px solid gold;
+}
+.person {
+  margin-left:auto;
+  margin-right:auto;
+  //height: 50%;
+  width: 250px;
+  display: block;
+}
+.person-img {
+  margin-top: 20%;
+  width: 250px;
+  height: 250px;
+}
+body {
+  margin: 0 0 0 0;
+  background-color: #CC1332;
+}
