@@ -1,0 +1,137 @@
+html{
+  margin: 0;
+  background-color: white;
+}
+.nome_projeto{
+  text-align: center;
+  padding: 1%;
+  align-items: center;
+}
+.nome_projeto img{
+  float: left;
+  width: 15%;
+}
+.main_info {
+  font-family: 'Roboto Slab', serif;
+  box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+  border-radius: 7px;
+  padding: 1%;
+  display: flex;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.img_info img{
+  width: 100%;
+  border-radius: 20%;
+}
+.img_info{
+  box-shadow:
+    8px 8px 10px 0px black,
+    -5px -5px 5px 0px #CC1332,
+    5px 5px 15px 0px blue;
+  width: 50%;
+}
+.info{
+  width: 50%;
+  padding: 2%;
+  font-size: 22px;
+
+}
+.first_info{
+  width: 47%;
+  display: flex;
+  border-right: 2px solid black;
+}
+.linha1{
+  display: flex;
+}
+.linha2{
+  display: flex;
+}
+.habilidades{
+  align-self: center;
+  width: 47%;
+  padding: 1%;
+}
+.titulo_habilidades{
+  font-size: 22px;
+  background-color: white;
+  text-align: center;
+}
+.col-1-top{
+  padding: 1%;
+  width: 33%;
+  text-align: center;
+  border-width: thin;
+  border-bottom: 1px solid #000080;
+}
+.col-1-down{
+  padding: 1%;
+  width: 33%;
+  text-align: center;
+  border-width: thin;
+}
+.col-2-top{
+  padding: 1%;
+  text-align: center;
+  width: 16.6%;
+  border-left: 3em solid #000080;
+  border-width: thin;
+}
+.col-2-down{
+  padding: 1%;
+  text-align: center;
+  width: 16.6%;
+  border-top: 3em solid #000080;
+  border-right: 3em solid #000080;
+  border-left: 3em solid #000080;
+  border-width: thin;
+}
+.col-3-top{
+  padding: 1%;
+  width: 33%;
+  border-bottom: 3em solid #000080;
+  border-left: 3em solid #000080;
+  border-right: 3em solid #000080;
+  border-width: thin;
+}
+.col-3-down{
+  padding: 1%;
+  width: 33%;
+  border-width: thin;
+}
+.col-4-top{
+  padding: 1%;
+  text-align: center;
+  width: 16.6%;
+  border-bottom: 3em solid #000080;
+  border-width: thin;
+}
+.col-4-down{
+  padding: 1%;
+  text-align: center;
+  width: 16.6%;
+  border-left: 3em solid #000080;
+  border-width: thin;
+}
+.tabela_habilidades{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+}
+.texto_info{
+  display: flex;
+}
+.header-left-2{
+  position: relative;
+  float: left;
+  font-size: 60px;
+  margin-left: 30%;
+  left: 0;
+  height: 100%
+}
+.detalhes{
+  padding: 1%;
+}
