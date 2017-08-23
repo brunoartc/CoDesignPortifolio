@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<style media="screen">
+  html{
+    margin: 0;
+    background-color: #CC1332;
+  }
+  .nome_projeto{
+    text-align: center;
+    padding: 1%;
+    align-items: center;
+  }
+  .nome_projeto img{
+    float: left;
+    width: 15%;
+  }
+  .main_info {
+    border-radius: 10%;
+    padding: 1%;
+    display: flex;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  .img_info img{
+    width: 100%;
+    border-radius: 20%;
+  }
+  .img_info{
+    width: 50%;
+  }
+  .info{
+    width: 50%;
+    padding: 2%;
+    font-size: 22px;
+  }
+  .first_info{
+    width: 47%;
+    display: flex;
+    border-right: 2px solid black;
+  }
+  .linha1{
+    display: flex;
+  }
+  .linha2{
+    display: flex;
+  }
+  .habilidades{
+    align-self: center;
+    width: 47%;
+    padding: 1%;
+  }
+  .titulo_habilidades{
+    font-size: 22px;
+    background-color: #8B0000;
+    text-align: center;
+  }
+  .col-1-top{
+    padding: 1%;
+    width: 33%;
+    text-align: center;
+    border-width: thin;
+    border-bottom: 1px solid #000080;
+  }
+  .col-1-down{
+    padding: 1%;
+    width: 33%;
+    text-align: center;
+    border-width: thin;
+  }
+  .col-2-top{
+    padding: 1%;
+    text-align: center;
+    width: 16.6%;
+    border-left: 3em solid #000080;
+    border-width: thin;
+  }
+  .col-2-down{
+    padding: 1%;
+    text-align: center;
+    width: 16.6%;
+    border-top: 3em solid #000080;
+    border-right: 3em solid #000080;
+    border-left: 3em solid #000080;
+    border-width: thin;
+  }
+  .col-3-top{
+    padding: 1%;
+    width: 33%;
+    border-bottom: 3em solid #000080;
+    border-left: 3em solid #000080;
+    border-right: 3em solid #000080;
+    border-width: thin;
+  }
+  .col-3-down{
+    padding: 1%;
+    width: 33%;
+    border-width: thin;
+  }
+  .col-4-top{
+    padding: 1%;
+    text-align: center;
+    width: 16.6%;
+    border-bottom: 3em solid #000080;
+    border-width: thin;
+  }
+  .col-4-down{
+    padding: 1%;
+    text-align: center;
+    width: 16.6%;
+    border-left: 3em solid #000080;
+    border-width: thin;
+  }
+  .tabela_habilidades{
+    background-color: blue;
+    border-radius: 10%;
+  }
+  .texto_info{
+    display: flex;
+  }
+  .header-left-2{
+    position: relative;
+    float: left;
+    font-size: 60px;
+    margin-left: 30%;
+    left: 0;
+    height: 100%
+  }
+  .detalhes{
+    padding: 1%;
+  }
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/header.css">
+  </head>
+  <body>
+    <div class="pagina">
+      <div class="header">
+        <div class="header-left">
+          <img class="logo" src="static/imagens/insper-branco.png" alt="logo">
+        </div>
+        <div class="header-left-2">
+          <span>Nome Projeto</span>
+        </div>
+      </div>
+
+      <div class="main_info">
+        <div class="first_info">
+          <div class="img_info">
+            <img src="static/imagens/projeto.png">
+          </div>
+          <div class="info">
+            <div class="texto_info"><span><strong>Curso:</strong> Computação</span></div>
+            <br>
+            <div class="texto_info"><span><strong>data:</strong> 17/07/1998</span></div>
+            <br>
+            <div class="texto_info"><span><strong>Período:</strong> primeiro semestre</span></div>
+            <br>
+            <div class="texto_info"><span><strong>Duração:</strong> 5 anos</span></div>
+          </div>
+        </div>
+        <div class="habilidades">
+          <h3 class="titulo_habilidades">Habilidades envolvidas</h3>
+          <div class="tabela_habilidades">
+            <div class="linha1">
+              <div class="col-1-top">
+                <p>Progrmação</p>
+              </div>
+              <div class="col-2-top">
+                <i class="fa fa-check fa-4x" aria-hidden="true"></i>
+              </div>
+              <div class="col-3-top">
+                <p>Escrita e técnica científica</p>
+              </div>
+              <div class="col-4-top">
+                <i class="fa fa-times fa-4x" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="linha2">
+              <div class="col-1-down">
+                <p>Fabricação</p>
+              </div>
+              <div class="col-2-down">
+                <i class="fa fa-times fa-4x" aria-hidden="true"></i>
+              </div>
+              <div class="col-3-down">
+                <p>Design centrado no usuário</p>
+              </div>
+              <div class="col-4-down">
+                <i class="fa fa-check fa-4x" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="detalhes">
+          <div class="detalhes-titulo">
+            <h1>Detalhes</h1>
+          </div>
+          <div class="detalhes-texto">
+              <p>detalhessssss</p>
+          </div>
+        </div>
+
+    </div>
+  </body>
+</html>
