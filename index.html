@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="static/css/header.css">
     <link rel="stylesheet" href="static/css/menu.css">
     <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript">
+      function meClica(x) {
+        document.getElementById('nav-extra').style.display='flex'
+        document.getElementById('nav-init').style.display='none'
+      }
+    </script>
     <title>Portifolio</title>
   </head>
   <body>
@@ -20,13 +26,21 @@
         <a class="more-info" href="moreinfo.html"><i class="fa fa-info-circle" style="font-size: 25px;" aria-hidden="true"></i><span> More info</span><a>
       </div>
     </div>
+
     <div class="info-botton">
-      <div class="nav-portifolio">
-        <div class="nav-button">
-        </div>
-        <div class="nav-button">
-        </div>
+      <div class="nav-portifolio" id="nav-init">
+        <a href="#" class="nav-button"></a>
+        <a class="nav-button" onclick="meClica()">Curricular</a>
       </div>
+
+      <div class="info-botton">
+        <div class="nav-portifolio" id="nav-extra">
+          <a href="#" class="nav-button">Area 1</a>
+          <a href="#" class="nav-button">Area 2</a>
+          <a class="nav-button" onclick="meClica()">Area 3</a>
+          <a class="nav-button" onclick="meClica()">Area 4</a>
+        </div>
+
     </div>
   </body>
 </html>

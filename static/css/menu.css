@@ -1,13 +1,18 @@
 .info-main{
   margin-bottom: 2%;
-  height: 15em;
+  height: 13em;
   border-bottom: 2px;
   text-align: center;
   font-family: 'Baloo Bhaijaan', cursive;
   font-size: 25px;
 }
+#nav-extra {
+  display: none;
+}
 a {
   text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 .nav-portifolio {
   display: flex;
@@ -20,10 +25,13 @@ a {
 }
 .nav-button {
   margin: 5%;
+  margin-top: 15px;
   background-color:blue;
   height: 50px;
   width: 150px;
   border-radius: 10px;
+  text-align: center;
+  line-height: -moz-block-height;
 }
 .more-info:hover{
   cursor: pointer;
@@ -36,12 +44,16 @@ a {
 .person {
   margin-left:auto;
   margin-right:auto;
-  width: 250px;
+  width: 200px;
   display: block;
 }
 .person-img {
   margin-top: 20%;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 10em;
+}
+body {
+  margin: 0;
+  background-color: #DCDCDC;
 }
