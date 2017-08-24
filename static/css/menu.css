@@ -32,6 +32,7 @@ a {
   border-radius: 10px;
   text-align: center;
   line-height: -moz-block-height;
+  line-height: 250%;
 }
 .more-info:hover{
   cursor: pointer;
