@@ -15,7 +15,6 @@ html{
 .main_info {
   box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
   border-radius: 7px;
-  padding: 1%;
   display: flex;
   width: 100%;
 }
@@ -84,6 +83,7 @@ html{
 .col-3-top{
   padding: 1%;
   width: 33%;
+  text-align: center;
   border-left: 3em solid #000080;
   border-right: 3em solid #000080;
   border-width: thin;
@@ -132,6 +132,7 @@ html{
 .col-3-down{
   padding: 1%;
   width: 33%;
+  text-align: center;
   border-width: thin;
 }
 .col-4-down{
