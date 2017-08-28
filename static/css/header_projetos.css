@@ -1,6 +1,6 @@
 html{
   margin: 0;
-  background-color: #DCDCDC;
+  background-color: rgb(229, 229, 230);
   font-family: 'Roboto Slab', serif;
 }
 .nome_projeto{
@@ -15,7 +15,6 @@ html{
 .main_info {
   box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
   border-radius: 7px;
-  padding: 1%;
   display: flex;
   width: 100%;
 }
@@ -29,11 +28,13 @@ html{
   align-items: center;
   width: 47%;
   margin-right: 15px;
-
 }
 .info{
   width: 50%;
-  padding: 2%;
+  padding: 3%;
+  padding-top: 15%;
+  margin: 1%;
+  text-align: center;
   font-size: 22px;
 }
 .first_info{
@@ -82,6 +83,7 @@ html{
 .col-3-top{
   padding: 1%;
   width: 33%;
+  text-align: center;
   border-left: 3em solid #000080;
   border-right: 3em solid #000080;
   border-width: thin;
@@ -130,6 +132,7 @@ html{
 .col-3-down{
   padding: 1%;
   width: 33%;
+  text-align: center;
   border-width: thin;
 }
 .col-4-down{
@@ -158,6 +161,7 @@ html{
   height: 100%
 }
 .detalhes{
+  border-radius: 15px;
   margin-top: 3%;
   padding: 1%;
   border-style: double;
