@@ -7,15 +7,22 @@
     <link rel="stylesheet" href="static/css/menu.css">
     <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
     <script type="text/javascript">
-      function meClica(x) {
+      function toggleMenuOn() {
+        document.getElementById('nav-extra').style.display='none'
+        document.getElementById('nav-init').style.display='flex'
+        document.getElementById("iii").value="zaa"
+      }
+      function toggleMenuOff() {
         document.getElementById('nav-extra').style.display='flex'
         document.getElementById('nav-init').style.display='none'
+        document.getElementById("iii").value="zee"
       }
     </script>
     <title>Portifolio</title>
   </head>
   <body>
     <div class="header">
+      <input id="iii" type="text" name="" value="">
       <div class="header-left">
         <img class="logo" src="static/imagens/insper-branco.png" alt="logo">
       </div>
@@ -29,12 +36,13 @@
 
     <div class="info-botton">
       <div class="nav-portifolio" id="nav-init">
-        <a href="#" class="nav-button"></a>
-        <a class="nav-button" onclick="meClica()">Curricular</a>
+        <a href="projeto_menu.html" class="nav-button">Curricular</a>
+        <a class="nav-button" onclick="toggleMenuOff()">Curricular</a>
       </div>
 
       <div class="info-botton">
         <div class="nav-portifolio" id="nav-extra">
+          <a onclick="toggleMenuOn() "class="nav-back"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
           <a href="#" class="nav-button">Area 1</a>
           <a href="#" class="nav-button">Area 2</a>
           <a class="nav-button" onclick="meClica()">Area 3</a>
