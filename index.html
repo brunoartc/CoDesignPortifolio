@@ -10,19 +10,16 @@
       function toggleMenuOn() {
         document.getElementById('nav-extra').style.display='none'
         document.getElementById('nav-init').style.display='flex'
-        document.getElementById("iii").value="zaa"
       }
       function toggleMenuOff() {
         document.getElementById('nav-extra').style.display='flex'
         document.getElementById('nav-init').style.display='none'
-        document.getElementById("iii").value="zee"
       }
     </script>
     <title>Portifolio</title>
   </head>
   <body>
     <div class="header">
-      <input id="iii" type="text" name="" value="">
       <div class="header-left">
         <img class="logo" src="static/imagens/insper-branco.png" alt="logo">
       </div>
@@ -30,23 +27,22 @@
     <div class="info-main">
       <div class="person">
         <img class="person-img" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimg.freepik.com%2Ffree-icon%2Fmale-close-up-dark-silhouette-shape_318-39674.jpg%3Fsize%3D338%26ext%3Djpg&f=1" alt="sua foto">
-        <a class="more-info" href="moreinfo.html"><i class="fa fa-info-circle" style="font-size: 25px;" aria-hidden="true"></i><span> More info</span><a>
+        <a class="more-info" href="sobremim.html"><i class="fa fa-info-circle" style="font-size: 25px;" aria-hidden="true"></i><span> More info</span><a>
       </div>
     </div>
 
     <div class="info-botton">
       <div class="nav-portifolio" id="nav-init">
         <a href="projeto_menu.html" class="nav-button">Curricular</a>
-        <a class="nav-button" onclick="toggleMenuOff()">Curricular</a>
+        <a class="nav-button" onclick="toggleMenuOff()">Extra curricular</a>
       </div>
 
       <div class="info-botton">
         <div class="nav-portifolio" id="nav-extra">
           <a onclick="toggleMenuOn() "class="nav-back"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
-          <a href="#" class="nav-button">Area 1</a>
-          <a href="#" class="nav-button">Area 2</a>
-          <a class="nav-button" onclick="meClica()">Area 3</a>
-          <a class="nav-button" onclick="meClica()">Area 4</a>
+          <a href="#" class="nav-button">Extra 1</a>
+          <a href="#" class="nav-button">Extra 2</a>
+          <a href="#" class="nav-button">Extra 3</a>
         </div>
 
     </div>
