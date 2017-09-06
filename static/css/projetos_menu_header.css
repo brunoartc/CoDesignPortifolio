@@ -8,10 +8,24 @@
     margin: 0 10% 0 10%;
     border-radius: 12px;
 }
+.titulo{
+  margin: 0;
+}
+.header h1{
+  margin: 0;
+}
 .dropdown {
     position: relative;
-    border-radius: 10px;
+    font-size: 22px;
+    border-radius: 5px;
     display: inline-block;
+    width: 18%;
+    margin-left: 1%;
+}
+.dropbtn{
+  border: 1px solid black;
+  font-size: 22px;
+  width: 100%;
 }
 
 .dropdown-content {
@@ -20,7 +34,7 @@
     border-radius: 10px;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #B0D36B;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -57,6 +71,7 @@
 .conteudo{
   display: flex;
   width: 100%;
+  margin-left: 5px;
 }
 .destaque{
   width: 47%;
