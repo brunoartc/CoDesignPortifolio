@@ -1,5 +1,15 @@
+body {
+  
+  background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .dropbtn {
-    background-color: #ffffff;
+    background-color: #B0D36B;
     color: black;
     padding: 16px;
     font-size: 16px;
@@ -34,7 +44,7 @@
     border-radius: 10px;
     display: none;
     position: absolute;
-    background-color: #B0D36B;
+    background-color: #d0f97e;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -49,7 +59,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #d0f97e;
 }
 
 .dropdown:hover .dropdown-content {
@@ -57,13 +67,13 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #CC1332;
+    background-color: #d0f97e;
 }
 
 .titulo{
   margin-right: 1%;
   font-size: 28px;
-  text-align: center;
+  text-align: right;
 }
 .menu{
   display: flex;
@@ -73,15 +83,12 @@
   width: 100%;
   margin-left: 5px;
 }
-
 .destaque{
   width: 47%;
 }
-
 .foto{
   width: 47%;
 }
-
 .foto img{
   box-shadow: 4px 4px 4px 4px rgb(90, 90, 90);
   border-radius: 15px;

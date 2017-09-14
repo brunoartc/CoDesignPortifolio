@@ -1,7 +1,12 @@
 body {
 	margin: 0;
 	
-	background:#e3e3e3;
+	background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	}
 #sobre{
 	text-align: left;
@@ -13,8 +18,8 @@ body {
 
 .logo2 {
   margin: 10%;
-  width: 120%;
-  padding-top: 2%;
+  width: 150px;
+  
 }
 .titulo{
   margin-left:74%;

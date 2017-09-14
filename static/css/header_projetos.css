@@ -1,7 +1,15 @@
 body{
   margin: 0;
-  background-color: rgb(229, 229, 230);
-  font-family: 'Roboto Slab', serif;
+ 
+  font-family: 'Roboto Slab';
+  background: url(https://st.depositphotos.com/1067091/1338/v/950/depositphotos_13385090-stock-illustration-grey-gear-background.jpg) no-repeat center top fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
 }
 .nome_projeto{
   text-align: center;
@@ -13,7 +21,7 @@ body{
   width: 15%;
 }
 .main_info {
-  box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+  border:0; 
   border-radius: 7px;
   display: flex;
   width: 100%;
@@ -37,11 +45,17 @@ body{
   margin: 1%;
   text-align: center;
   font-size: 22px;
+  background:#f1eae2;
+  border-radius: 4px; 
 }
 .first_info{
   width: 45%;
   display: flex;
-  box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 50px 0 gray ;
+  background:#f1eae2; 
+  margin-left: 2%;
+  border-radius: 4px; 
+  background:#f1eae2;
 }
 .linha1{
   display: flex;
@@ -60,7 +74,9 @@ body{
   align-self: center;
   width: 47%;
   padding: 1%;
-  box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 50px 0 gray;
+  border-radius: 4px; 
+  background:#f1eae2;
 }
 .titulo_habilidades{
   font-size: 22px;
@@ -164,8 +180,11 @@ body{
 .detalhes{
   border-radius: 15px;
   margin-top: 3%;
+  margin:2%;
   padding: 1%;
   border-style: double;
   border-top: 1px, solid, black;
-  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 50px 0 gray;
+  border-radius: 4px; 
+  background:#f1eae2;
 }
