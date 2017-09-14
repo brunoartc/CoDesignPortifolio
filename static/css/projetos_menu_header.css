@@ -63,7 +63,7 @@
 .titulo{
   margin-right: 1%;
   font-size: 28px;
-  text-align: right;
+  text-align: center;
 }
 .menu{
   display: flex;
@@ -73,12 +73,15 @@
   width: 100%;
   margin-left: 5px;
 }
+
 .destaque{
   width: 47%;
 }
+
 .foto{
   width: 47%;
 }
+
 .foto img{
   box-shadow: 4px 4px 4px 4px rgb(90, 90, 90);
   border-radius: 15px;
