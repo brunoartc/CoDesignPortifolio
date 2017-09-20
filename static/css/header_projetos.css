@@ -11,6 +11,27 @@ body{
 
 
 }
+#rolar{
+  text-align: right;
+  padding-left:-80%;
+  background: #CC1332;
+  float:right;
+  position: fixed;
+  right: 0;
+  top: 25%;
+  width:9%;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+  
+ 
+}
+
+.fotohome{
+  width:43%;
+  padding-right: 3%;
+  
+
+}
 .nome_projeto{
   text-align: center;
   padding: 1%;
@@ -187,4 +208,15 @@ body{
   box-shadow: 0 4px 50px 0 gray;
   border-radius: 4px; 
   background:#f1eae2;
+}
+.posi2{
+  padding-top: 1%;
+  padding-right: 0.5%;
+}
+.titulo{
+  text-align:center;
+  font:200% Raleway;
+  color:#005643;
+ 
+
 }

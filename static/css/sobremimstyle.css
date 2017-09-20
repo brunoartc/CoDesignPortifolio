@@ -40,6 +40,27 @@ body {
 
 
 	}
+
+#rolarsobre{
+  text-align: right;
+  padding-left:-80%;
+  background: #005643;
+  float:right;
+  position: fixed;
+  right: 0;
+  top: 12%;
+  width:5%;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+  
+ 
+}
+
+.fotohome{
+  width:90%;
+  
+
+}
 #barradireita { 
 	font:85% Roboto+Slab;
 	float:right;
