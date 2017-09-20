@@ -1,9 +1,12 @@
 body {
 	margin: 0;
-	padding: 0;
-	font: 85% arial, hevetica, sans-serif;
 	
-	background:#f3f3f3;
+	background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	}
 #sobre{
 	text-align: left;
@@ -13,27 +16,75 @@ body {
 
 }
 
+.logo2 {
+  margin: 10%;
+  width: 150px;
+  
+}
+.titulo{
+  margin-left:74%;
+  padding-top: 0.01%;
+  font:200% Raleway;
+  color:#005643;
+}
+.titulo-2{
+	margin-left: 2%;
+    font:200% Raleway;
+    color:#005643;}
 
 
 #container {
-	background:#f3f3f3 ;
+	background:#e3e3e3 ;
 	display: inline-flex;
-	margin:0;
+	
 
 
 	}
+
+#rolarsobre{
+  text-align: right;
+  padding-left:-80%;
+  background: #005643;
+  float:right;
+  position: fixed;
+  right: 0;
+  top: 12%;
+  width:5%;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+  
+ 
+}
+
+.fotohome{
+  width:90%;
+  
+
+}
 #barradireita { 
+	font:85% Roboto+Slab;
 	float:right;
 	border-radius: 4px; 	
 	margin-left:2%;
-	margin-right: 0%;
-	width: 90%;
-	background:white;  
+	margin-right: -42%;
+	width: 110%;
+	background:#f1eae2;  
 	text-align: left;
 	display:flex;	
     box-shadow:0 4px 50px 0 black;
+    font:85% Roboto+Slab;
   }
-
+  .fonte1{font:200% Raleway;
+          color:#005643;}
+ .fonte2{font:150% Raleway;
+          color:#005643;
+         font-size:40;}
+ .fonte3{font:150% Roboto+Slab;
+          }
+ .fonte4{font:150% Roboto+Slab;
+ 	     color:#CC1332;
+ 	     font-size:23;
+          }
  .sobre{margin: 10 0 0 -420px;
   
 
@@ -42,12 +93,13 @@ body {
 
    
 #barraesquerda  { 
+
 	float:left;
     margin-left:2%;
     margin-right:0%;
 	border-radius: 4px; 	
-	width: 35%;  	
-	background:white;  
+	width: 40%;  	
+	background:#f1eae2;  
     display:flex;
     box-shadow: 0 4px 50px 0 black;
     
@@ -58,6 +110,7 @@ body {
 
 .img-circle {
 border-radius: 50%;
+margin-left: 8%;
 
 
 
@@ -67,7 +120,7 @@ border-radius: 50%;
 .ul {
 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-right: 2%;
+    padding: 2%;
 }
 
