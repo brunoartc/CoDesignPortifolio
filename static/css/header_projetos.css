@@ -32,6 +32,20 @@ body{
   
 
 }
+.passar1{
+  float:left;
+  margin-top: -2.5%;
+ margin-left:-46%;
+ 
+
+  
+}
+.passar2{
+  float:right;
+  margin-top: -3%;
+  margin-right: -1%;
+  
+}
 .nome_projeto{
   text-align: center;
   padding: 1%;
@@ -41,36 +55,47 @@ body{
   float: left;
   width: 15%;
 }
+.legenda{
+   float: left;
+   margin-top: 9%;
+   margin-left: 2.5%;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   height:2.5em;
+   text-align: left;
+}
 .main_info {
   border:0; 
   border-radius: 7px;
   display: flex;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .img_info img{
-  width: 105%;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-top: 15%;
+  margin-bottom: -40px;
+  margin-left: 9px;
+  float:left;
+  margin-top: 4%;
+  border-radius: 5px;
+  
 }
 .img_info{
   align-items: center;
-  width: 47%;
+  width: 70%;
   margin-right: 15px;
 }
 .info{
-  width: 50%;
-  padding: 3%;
-  padding-top: 15%;
+  width: 40%;
+  padding: 5%;
+  padding-top: 4%;
   margin: 1%;
-  text-align: center;
-  font-size: 22px;
+  text-align: left;
+  font-size: 18px;
   background:#f1eae2;
   border-radius: 4px; 
 }
 .first_info{
-  width: 45%;
+  width: 50%;
   display: flex;
   box-shadow: 0 4px 50px 0 gray ;
   background:#f1eae2; 
@@ -90,7 +115,7 @@ body{
   display: flex;
 }
 .habilidades{
-  margin-left: 5%;
+  margin-left: 2%;
   margin-right: 2%;
   align-self: center;
   width: 47%;

@@ -6,6 +6,34 @@
   font-family: 'Raleway';
   font-size: 25px;
 }
+
+#rolar{
+  text-align: right;
+  padding-left:-80%;
+  background: #B0D36B;
+  float:right;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  width:9%;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+  
+ 
+}
+
+.fotohome{
+  width:43%;
+  padding-right: 3%;
+  
+
+}
+.fotomidia{
+  width:5%;
+  padding-left: 1%;
+  
+
+}
 #nav-extra {
   display: none;
 }
@@ -42,6 +70,7 @@ a {
 
 
 }
+
 .nav-button:hover{
   background:#b8dd70;
   box-shadow:0 5px 0 #7b934b;
@@ -54,9 +83,32 @@ a {
   top:5px;
   box-shadow:none;
 }
+
+
+
+.nav-buttonextra {
+  margin-top: 0;
+  height: 100px;
+  width: 300px;
+  font-family: "Raleway";
+
+
+}
+
+.nav-buttonextra:hover{
+  background: none;
+}
+
+
+
+.nav-buttonextra:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
 .nav-back {
   margin: 0%;
-  margin-top: 15px;
+  margin-top: 2px;
   background-color: #B0D36B;
   height: 50px;
   width: 50px;
@@ -70,7 +122,12 @@ a {
 }
 .info-botton {
   margin-bottom: 0%;
-  height: 0em;
+  height: 5em;
+  border-bottom: 2px;
+}
+.info-botton {
+  margin-bottom: 0%;
+  height: 5em;
   border-bottom: 2px;
 }
 .person {
@@ -87,7 +144,7 @@ a {
 }
 body {
   margin: 0;
-
+ 
     background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
 
     -webkit-background-size: cover;
@@ -95,3 +152,4 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+

@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="static/css/header_projetos.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="static/css/projetos_menu_header.css">
-     <link rel="stylesheet" href="static/css/fontes.css">
+    <link rel="stylesheet" href="static/css/fontes.css">
     <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  
   </head>
   <body>
     <div class="pagina">
@@ -69,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="titulo"><h1 class='fonte1'>Projeto</h1></div>
+      <div class="titulo" style="margin-top:2%; margin-left:2%"><h1 class='fonte1'>Projeto</h1></div>
       <div id="rolar">
       <a href="./index.html"><img src="static/imagens/logohome.png" alt="logohome" class="fotohome"></a>
       <a href="./index.html"><img src="static/imagens/info.png" alt="logohome" class="fotohome"></a>
@@ -77,8 +79,53 @@
       <div class="main_info">
         <div class="first_info">
           <div class="img_info">
-            <img src="static/imagens/projeto.png">
+            <div class="direita">
+
+
+                  <div class="mySlides">
+                            <img src="static/imagens/mod1.png" style="width:100%">
+                            <div class=" w3-large  legenda w3-container w3-red">
+                              Trolltunga, Norway
+                            </div>
+                  </div>
+
+                  <div class="mySlides">
+                            <img src="static/imagens/mod2.png" style="width:100%">
+                      <div class=" w3-large  legenda  w3-container w3-red">
+                              Oi
+                      </div>
+                  </div>
+                  
+                <button class="w3-button  w3-trans passar2 " onclick="plusDivs(1)">&#10095;</button>
+                <button class="w3-button passar1 " onclick="plusDivs(-1)">&#10094;</button>
+                
+          
+                
+                
+              
+               
+            </div>
           </div>
+          
+              <script type="text/javascript">
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+              function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1} 
+                  if (n < 1) {slideIndex = x.length} ;
+                  for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none"; 
+            }
+            x[slideIndex-1].style.display = "block"; 
+        }
+            </script>
           <div class="info">
             <div class="texto_info"><span><strong>Curso:</strong> Desgin</span></div>
             <br>
