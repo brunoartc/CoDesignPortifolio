@@ -35,7 +35,7 @@ body{
 .passar1{
   float:left;
   margin-top: -2.5%;
- margin-left:-46%;
+ margin-left:-30%;
  
 
   
@@ -57,13 +57,16 @@ body{
 }
 .legenda{
    float: left;
-   margin-top: 9%;
+   margin-top: 9.5%;
    margin-left: 2.5%;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
-   height:2.5em;
-   text-align: left;
-}
+   height:1.5em;
+   width: 60%;
+   text-align: center;
+   background:#CC1332;;
+   color:white;
+  }
 .main_info {
   border:0; 
   border-radius: 7px;
@@ -73,21 +76,28 @@ body{
 }
 .img_info img{
   margin-bottom: -40px;
+  margin-top: 20%;
   margin-left: 9px;
   float:left;
   margin-top: 4%;
   border-radius: 5px;
   
 }
+.mySlides{
+  margin-top: 10%;
+
+}
 .img_info{
   align-items: center;
-  width: 70%;
+  width: 90%;
   margin-right: 15px;
+  margin-left: 3%;
+
 }
 .info{
   width: 40%;
   padding: 5%;
-  padding-top: 4%;
+  padding-top: 10%;
   margin: 1%;
   text-align: left;
   font-size: 18px;

@@ -12,9 +12,11 @@ body {
 	text-align: left
 }
 
+#tudo{
+  float:center;
 
+}
 .imagemprojeto{ 
-    text-align: left;
 	float:left;
 	padding-top: 4%;
 	border-radius: 15%;
@@ -23,18 +25,19 @@ body {
 
 
 }
-#inform1{
+.inform1{
 	float:left;
 	padding-left:2%;
-	width:60%;
+	width:20%;
 	
 }
-#inform2{
-	float:left;
+.inform2{
+    float:left;
+    width: 80%;
+    padding-left: 5%;
     padding-top: 5%;
-    margin-left: -20%;
-    
-    text-align: left;
+
+
 	
 }
 #botao{
