@@ -11,6 +11,9 @@ body {
 #projetoobj{
 	text-align: left
 }
+.titulo-projetos{
+  margin-left: 1.3%;
+}
 
 #tudo{
   float:center;
@@ -21,6 +24,7 @@ body {
 	padding-top: 4%;
 	border-radius: 15%;
 	padding-left: 10%,
+
 
 
 
@@ -50,7 +54,7 @@ body {
 	background:#f1eae2; 
 	display: inline-flex;
 	border-radius: 4px; 	
-	margin:2%;
+	margin:3%;
 	margin-right: 2%;
 	text-align: left;
 	display:flex;	
@@ -110,14 +114,15 @@ body {
   box-shadow:0 5px 0 #7b934b;
   height: 60px;
   width: 150px;
-  border-radius: 5px;
+  border-radius: 8px;
   text-align: center;
   vertical-align: right;
   line-height: 110%;
   font-family: "Roboto+Slab";
-  font-size:25px;
+  font-size:24px;
   float:right;
   margin-right: 30px;
+  margin-bottom: 5%;
 
 
 

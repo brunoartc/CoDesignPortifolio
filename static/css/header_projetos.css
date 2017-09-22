@@ -2,7 +2,7 @@ body{
   margin: 0;
  
   font-family: 'Roboto Slab';
-  background: url(https://st.depositphotos.com/1067091/1338/v/950/depositphotos_13385090-stock-illustration-grey-gear-background.jpg) no-repeat center top fixed;
+ background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,6 +24,14 @@ body{
   border-top-left-radius: 9px;
   
  
+}
+.fundo{
+  background:#f1eae2;
+  border-radius:10px;
+  margin: 6%;
+  box-shadow: 0 4px 50px 0 black;
+  margin-top:0;
+  padding-bottom: 50%;
 }
 
 .fotohome{
@@ -56,62 +64,65 @@ body{
   width: 15%;
 }
 .legenda{
-   float: left;
-   margin-top: 9.5%;
-   margin-left: 2.5%;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
-   height:1.5em;
-   width: 60%;
-   text-align: center;
-   background:#CC1332;;
-   color:white;
+   color:black;
+   font-family:"Roboto+Slab";
+   float:left;
+   margin-top: -64%;
+   margin-left: -10%;
   }
 .main_info {
-  border:0; 
-  border-radius: 7px;
+ 
   display: flex;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
+   
+
 }
 .img_info img{
   margin-bottom: -40px;
-  margin-top: 20%;
-  margin-left: 9px;
-  float:left;
-  margin-top: 4%;
-  border-radius: 5px;
+  margin-top: -2%;
+  margin-left: 10%;
+  float:right;
+  border-radius: 10px;
+ 
   
 }
+
+
+
+
 .mySlides{
   margin-top: 10%;
 
 }
 .img_info{
-  align-items: center;
-  width: 90%;
+  align-items: left;
+  width: 70%;
   margin-right: 15px;
-  margin-left: 3%;
+  margin-left: 15%;
+  margin-top: -2%;
+  border:0;
+
 
 }
 .info{
-  width: 40%;
-  padding: 5%;
-  padding-top: 10%;
-  margin: 1%;
+  width: 60%;
+  margin-top: 8%;
   text-align: left;
-  font-size: 18px;
-  background:#f1eae2;
-  border-radius: 4px; 
+  float:left;
+  font-size: 22px;
+  padding-top: 5%;
+  padding-left: 2%;
+ 
+
 }
 .first_info{
+  float:right;
   width: 50%;
   display: flex;
-  box-shadow: 0 4px 50px 0 gray ;
-  background:#f1eae2; 
   margin-left: 2%;
-  border-radius: 4px; 
-  background:#f1eae2;
+ 
+ 
 }
 .linha1{
   display: flex;
@@ -125,20 +136,16 @@ body{
   display: flex;
 }
 .habilidades{
-  margin-left: 2%;
+
   margin-right: 2%;
-  align-self: center;
-  width: 47%;
+  width: 50%; 
   padding: 1%;
-  box-shadow: 0 4px 50px 0 gray;
-  border-radius: 4px; 
-  background:#f1eae2;
+  float:center;
+
 }
 .titulo_habilidades{
-  font-size: 22px;
-  background-color: white;
-  border-radius: 4px;
-  border: 1px solid black;
+  margin-top: 3%;
+  font-size: 20px;
   text-align: center;
 }
 .col-1-top{
@@ -216,11 +223,9 @@ body{
   border-width: thin;
 }
 .tabela_habilidades{
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 4px;
-  box-shadow: 0 4px 50px 0 rgba(0,0,0,0.2);
+  
   margin-bottom: 5%;
+  margin-top: 10%;
 }
 .texto_info{
   display: flex;
@@ -235,14 +240,11 @@ body{
 }
 .detalhes{
   border-radius: 15px;
-  margin-top: 3%;
+  margin-top: 80%;
   margin:2%;
   padding: 1%;
-  border-style: double;
-  border-top: 1px, solid, black;
-  box-shadow: 0 4px 50px 0 gray;
-  border-radius: 4px; 
-  background:#f1eae2;
+  float:left;
+  
 }
 .posi2{
   padding-top: 1%;

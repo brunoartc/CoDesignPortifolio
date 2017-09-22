@@ -1,17 +1,17 @@
-.header {
+.header2 {
   top: 0px;
   margin-bottom: 2%;
-  height: 5em;
+  height: 7em;
   border-bottom: 2px;
-  background-color:#b5112d;
+  background-color: #CC1332;
 }
-.header-left {
+.header-left2 {
   position: relative;
   float: left;
   right: 0;
   height: 100%;
 }
-.header-right {
+.header-right2 {
   position: relative;
   float: right;
   left: 0;
