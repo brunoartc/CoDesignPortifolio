@@ -1,6 +1,6 @@
 body{
   margin: 0;
- 
+
   font-family: 'Roboto Slab';
  background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
 
@@ -22,8 +22,8 @@ body{
   width:9%;
   border-bottom-left-radius: 9px;
   border-top-left-radius: 9px;
-  
- 
+
+
 }
 .fundo{
   background:#f1eae2;
@@ -37,22 +37,22 @@ body{
 .fotohome{
   width:43%;
   padding-right: 3%;
-  
+
 
 }
 .passar1{
   float:left;
   margin-top: -2.5%;
  margin-left:-30%;
- 
 
-  
+
+
 }
 .passar2{
   float:right;
   margin-top: -3%;
   margin-right: -1%;
-  
+
 }
 .nome_projeto{
   text-align: center;
@@ -71,7 +71,7 @@ body{
    margin-left: -10%;
   }
 .main_info {
- 
+
   display: flex;
   width: 100%;
   margin-top: 20px;
@@ -84,8 +84,8 @@ body{
   margin-left: 10%;
   float:right;
   border-radius: 10px;
- 
-  
+
+
 }
 
 
@@ -113,7 +113,7 @@ body{
   font-size: 22px;
   padding-top: 5%;
   padding-left: 2%;
- 
+
 
 }
 .first_info{
@@ -121,8 +121,8 @@ body{
   width: 50%;
   display: flex;
   margin-left: 2%;
- 
- 
+
+
 }
 .linha1{
   display: flex;
@@ -138,7 +138,7 @@ body{
 .habilidades{
 
   margin-right: 2%;
-  width: 50%; 
+  width: 50%;
   padding: 1%;
   float:center;
 
@@ -150,80 +150,61 @@ body{
 }
 .col-1-top{
   padding: 1%;
-  width: 33%;
+  width: 50%;
   text-align: center;
-}
-.col-2-top{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
-  border-left: 3em solid #000080;
-  border-width: thin;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-top-left-radius: 5px;
+  background-color: white;
 }
 .col-3-top{
   padding: 1%;
-  width: 33%;
+  width: 50%;
   text-align: center;
   border-left: 3em solid #000080;
   border-right: 3em solid #000080;
+  border-top: 1px solid black;
+  border-top-right-radius: 5px;
   border-width: thin;
-}
-.col-4-top{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
+  background-color: white;
 }
 .col-1{
   padding: 1%;
-  width: 33%;
-  text-align: center;
-}
-.col-2{
-  padding: 1%;
-  width: 16.6%;
-  text-align: center;
+  width: 50%;
   border-left: 1px solid black;
+  text-align: center;
+  background-color: white;
 }
 .col-3{
   padding: 1%;
-  width: 33%;
+  width: 50%;
   text-align: center;
   border-left: 1px solid black;
-}
-.col-4{
-  padding: 1%;
-  width: 16.6%;
-  text-align: center;
-  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white;
 }
 .col-1-down{
   padding: 1%;
-  width: 33%;
+  width: 50%;
   text-align: center;
   border-width: thin;
-}
-.col-2-down{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
-  border-right: 1px solid #000080;
-  border-left: 1px solid #000080;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-bottom-left-radius: 5px;
+  background-color: white;
 }
 .col-3-down{
   padding: 1%;
-  width: 33%;
+  width: 50%;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-right-radius: 5px;
+  background-color: white;
   text-align: center;
-  border-width: thin;
-}
-.col-4-down{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
-  border-left: 3em solid #000080;
   border-width: thin;
 }
 .tabela_habilidades{
-  
   margin-bottom: 5%;
   margin-top: 10%;
 }
@@ -244,7 +225,7 @@ body{
   margin:2%;
   padding: 1%;
   float:left;
-  
+
 }
 .posi2{
   padding-top: 1%;
@@ -254,6 +235,6 @@ body{
   text-align:center;
   font:200% Raleway;
   color:#005643;
- 
+
 
 }
