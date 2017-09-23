@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  
+  background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;d;
+  font-family:"Roboto+Slab";
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.dropbtn {
+    background-color:#a8c966;
+    box-shadow:0 5px 0 #7b934b;
+    color: black;
+    padding: 18px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    border: none;
+    cursor: pointer;
+    margin: 0 10% 0 10%;
+    border-radius: 12px;
+}
+
+.header h1{
+  margin: 0;
+}
+.dropdown {
+    position: relative;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 18%;
+    margin-left: 1%;
+}
+.dropbtn{
+  font-size: 20px;
+  width: 100%;
+}
+
+.dropdown-content {
+    left: 15px;
+    top: 52px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background-color: #b8dd70;
+    min-width: 160px;
+    font-size: 24px;
+    margin-left:4.5%;
+    margin-top: 4%;
+   
+    z-index: 1;
+    font-family: "Raleway";
+}
+
+.dropdown-content a {
+   
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+  
+.dropdown-content a:hover {
+  background:#b8dd70;
+ 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+     border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#b8dd70;
+    position:relative;
+    top:5px;
+    box-shadow:none;
+    border-bottom-left-radius: 0;
+}
+}
+
+
+.menu{
+  display: flex;
+}
+.conteudo{
+  display: flex;
+  width: 100%;
+  margin-left: 5px;
+}
+.destaque{
+  box-shadow:0 4px 50px 0 black;
+  font:85% Roboto+Slab;
+  font-size:80;
+  border-radius: 10px; 
+  background:#f1eae2;
+  margin-left: 2%;
+  padding-left: 1%;
+  padding-top: 5%;
+  width: 80%;
+}
+.foto{
+  width: 43%;
+  padding-left: 3%;
+}
+.foto img{
+  
+  width: 70%;
+}

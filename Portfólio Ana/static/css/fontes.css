@@ -1,0 +1,42 @@
+.fonte1{font:200% Raleway;
+          color:#005643;}
+.fonte2{font:150% Raleway;
+          color:#005643;
+         font-size:40;}
+.fonte3{font:'Roboto+Slab';
+	       color:black;
+         size:80px;
+          }
+.fonte7{font: 'Roboto+Slab';
+          color:black;
+       font-size:25px;
+          }
+.fonte4{font:150% 'Roboto+Slab';
+ 	     color:#CC1332;
+ 	     font-size:23;
+ 	 }
+.fonte5{font:'Roboto+Slab';
+ 	     color:black,
+ 	     font-size:30;
+ 	 }
+.fonte12{font:250% Raleway;
+        color:white;
+        margin-left: -2%;
+        margin-top: 3%;
+        }
+.fonte13{font:250% Raleway;
+        color:white;
+        margin-left: -2%;
+        margin-top: 3%;
+        font-size: 80;
+        }
+.fonte21{font:150% Raleway;
+          color:#005643;
+         margin-left: 2%;
+         font-size:40;}
+
+.fonte22{font:150% Raleway;
+          color:#005643;
+         margin-left: 2%;
+         size:80;}
+
