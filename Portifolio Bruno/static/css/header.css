@@ -1,0 +1,23 @@
+.header {
+  top: 0px;
+  margin-bottom: 2%;
+  height: 5em;
+  border-bottom: 2px;
+  background-color:#b5112d;
+}
+.header-left {
+  position: relative;
+  float: left;
+  right: 0;
+  height: 100%;
+}
+.header-right {
+  position: relative;
+  float: right;
+  left: 0;
+  height: 100%;
+}
+.logo {
+  margin: 10%;
+  width: 150px;
+}
