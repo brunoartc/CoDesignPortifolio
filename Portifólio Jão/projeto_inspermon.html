@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/header_projetos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/projetos_menu_header.css">
+    <link rel="stylesheet" href="static/css/fontes.css">
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+  </head>
+  <body>
+    <div class="pagina">
+      <div class="header">
+        <div class="header-left">
+          <a href="./index.html"><img class="logo" src="static/imagens/insper-branco.png" alt="logo"></a>
+        </div>
+         <div class="header-right posi2">
+
+          <h1 class="fonte12" >Projetos Curriculares</h1>
+        </div>
+
+
+    </div>
+
+      </div>
+      <div class="menu">
+        <a href="./projeto_menu.html"><div class="dropdown">
+
+
+        <button href="./projeto_menu.html" class="dropbtn">Destaque</button>
+      </div></a>
+      <div class="dropdown">
+        <button class="dropbtn">Programação</button>
+        <div class="dropdown-content">
+         <a href="projeto_subcat-analise.html">Análise de dados</a>
+          <a href="projeto_subcat-software.html">Software</a>
+          <a href="projeto_subcat-appeweb.html">Web e Aplicativos</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Eletrônica</button>
+        <div class="dropdown-content">
+          <a href="projeto_subcat-arduino.html">Projetos com Arduino</a>
+          <a href="projeto_subcat-semarduino.html">Demais projetos</a>
+
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Design </button>
+        <div class="dropdown-content">
+          <a href="projeto_subcat-appeweb.html">Aplicativos e Web</a>
+          <a href="projeto_subcat-fabri.html">Fabricação</a>
+
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Pesquisas</button>
+        <div class="dropdown-content">
+          <a href="projeto_subcat-analise.html">Análise de dados</a>
+          <a href="projeto_subcat-artigo.html">Artigos</a>
+          <a href="projeto_subcat-seminario.html">Seminários</a>
+        </div>
+      </div>
+
+    </div>
+    <style type="text/css">
+       .efeito2{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.8; /*esta linha é a que escurece a imagem*/
+
+ }
+    </style>
+
+      <div class="titulo" style="margin-top:5%; margin-left:2%"><h1 class='fonte1'>Inspermon - Jogo</h1></div>
+      <div id="rolar">
+      <a href="./index.html"><img src="static/imagens/logohome.png" alt="logohome" class="fotohome"></a>
+      <a href="./index.html"><img src="static/imagens/info.png" alt="logohome" class="fotohome"></a>
+    </div>
+    <div class=fundo>
+    <div class=fundo1>
+      <div class="main_info">
+         <div class="first_info">
+          <div class="img_info">
+            <p class="fonte1" style="text-align:center; margin-top:9.5%; padding-right: 3%">Imagens</p>
+                  <div class="mySlides">
+                            <img src="static/imagens/poke.png" style="width:110%">
+                            <div class=" w3-large  legenda w3-container  efeito2">
+                             
+                            </div>
+                  </div>
+
+
+
+
+          </div>
+
+              <script type="text/javascript">
+                var slideIndex = 1;
+                carousel();
+                function carousel(){
+                  var i;
+                  var x=document.getElementsByClassName("mySlides");
+                  for(i=0; i<x.length;i++){
+                    x[i].style.display="none";
+                  }
+                  slideIndex++;
+                  if(slideIndex>x.length){slideIndex=1}
+                  x[slideIndex-1].style.display="block"
+                  setTimeout(carousel,2000)
+
+                }
+
+            </script>
+        </div>
+        <div class="habilidades">
+          <h3 class="titulo_habilidades fonte1">Habilidades envolvidas</h3>
+          <div class="tabela_habilidades">
+            <div class="linha1">
+              <div class="col-1-top">
+                <p>Programação</p>
+              </div>
+              <div class="col-3-top">
+                <p>Trabalho em equipe</p>
+              </div>
+            </div>
+            <!--<div class="linha2">
+              <div class="col-1">
+                <p>Fabricação</p>
+              </div>
+              <div class="col-3">
+                <p>Design centrado no usuário</p>
+              </div>
+            </div>
+            <div class="linha3">
+              <div class="col-1-down">
+                <p>Eletrônica</p>
+              </div>
+              <div class="col-3-down">
+                <p>Empreendedorismo</p>
+              </div>
+            </div>-->
+
+        </div>
+      </div>
+    </div>
+
+        <div class="detalhes">
+          <div class="detalhes-titulo">
+            <h1 class="fonte1" style="text-align: center">Detalhes</h1>
+          </div>
+          <div class="detalhes-texto">
+              <p>O projeto se baseava em programação em python básica. A ideia era desenvolver um jogo de pokemon que podesse ser jogado pelo cmd (terminal de controle do computador). Como foi sugerido tal projeto no começo do curso, nossos conhecimentos em programação eram bem primitivosl, mas com pesquisas mais a fundo, e ajuda de pessoas que já haviam feito, nos fez conseguir resultados bem impressionantes.</p>
+              <p>Como estavamos fazendo tal projeto em dupla, tivemos que de algum modo, sincronizar os trabalhos, o que minha dupla e eu fizemos muito bem, tendo alguns problemas iniciais, mas no final com um bom desempenho</p>
+
+    </div>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>
