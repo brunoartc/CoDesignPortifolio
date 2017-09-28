@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/menu.css">
+    <link rel="stylesheet" href="static/css/fontes.css">
+    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href=" https://fonts.google.com/specimen/Raleway" rel="stylesheet">
+    <script type="text/javascript">
+      function toggleMenuOn() {
+        document.getElementById('nav-extra').style.display='none'
+        document.getElementById('nav-init').style.display='flex'
+        document.getElementById('oi').style.display = 'block'
+        document.getElementById('rolar').style.display='none'
+        document.getElementById('p').style.display='none'
+        document.getElementById('exp').style.display='none'
+
+      }
+      function toggleMenuOff() {
+        document.getElementById('nav-extra').style.display='flex'
+        document.getElementById('nav-init').style.display='none'
+        document.getElementById('oi').style.display='none'
+        document.getElementById('rolar').style.display='block'
+      }
+
+    </script>
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <img class="logo" src="static/imagens/insper-branco.png" alt="logo">
+      </div>
+      <div class="header-right">
+          <h1 class="fonte12" >Portfólio Bruno Arthur</h1>
+    </div>
+
+   </div>
+    <div  id=oi class="info-main">
+      <div id=oi class="person">
+        <img id=oi class="person-img" src=https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA0MAAAAJGI5NDdmZjFlLWZkN2MtNDZmNC1hYWU2LTEyNmI4ZGYwMjZjMw.jpg>
+        <a  id=oi class="more-info" href="sobremim.html"><i class="fa fa-info-circle" style="font-size: 25px;" aria-hidden="true"></i><span id=oi> Sobre Mim</span><a>
+      </div>
+    </div>
+
+    <div class="info-botton">
+      <div class="nav-portifolio" id="nav-init">
+        <a href="projeto_menu.html" class="nav-button ">Curricular</a>
+        <a class="nav-button" onclick="toggleMenuOff()">Extra curricular</a>
+      </div>
+      <style>
+.efeito img{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 1.0; /*esta linha é a que escurece a imagem*/
+ }
+.efeito img:hover{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.2;} /*esta linha é a que clareia a imagem*/
+.efeito2{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.9;} /*esta linha é a que clareia a imagem*/
+
+</style>
+
+       <div class="nav-portifolio efeito"  style='margin-top:11%' id="nav-extra" >
+           <div id="rolar" class="efeito2">
+      <a href="./index.html" id="p"><img src="static/imagens/logohome.png" alt="logohome" class="fotohome"></a>
+      <a href="./index.html" id="p"><img src="static/imagens/info.png" alt="logohome" class="fotohome"></a>
+    </div>
+
+          <a href="projeto-green" class="nav-buttonextra" style="margin-top: 5px" ><h3 style='padding-left:10% ' class="fonte22" ></h3><img style='width:70%; ' class="efeito" src="static/imagens/green.png" alt="logo"></a>
+          <a href="projeto-techedu.html" class="nav-buttonextra" ><h3 style='margin-right:80px ' class="fonte22"></h3><img style='width:70%; ' class="efeito" "" src="static/imagens/techedu.png" alt="logo"></a>
+          <a href="projeto-ismart.html" class="nav-buttonextra" style="margin-top: 5px" ><h3 style='' class="fonte22"></h3><img style='width:70%; '"" src="static/imagens/ismart.png" alt="logo"></a>
+        </div>
+    </div>
+
+
+      </div>
+  </body>
+</html>
