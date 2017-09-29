@@ -29,6 +29,8 @@ body {
 }
 .titulo-2{
 	margin-left: 2%;
+  margin-top: -2%;
+  padding-bottom:-15%;
     font:200% Raleway;
     color:#005643;}
 

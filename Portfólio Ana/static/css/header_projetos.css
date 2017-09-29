@@ -31,7 +31,7 @@ body{
   margin: 6%;
   box-shadow: 0 4px 50px 0 black;
   margin-top:0;
-  padding-bottom: 50%;
+  padding-bottom: 30%;
 }
 
 .fotohome{
@@ -209,7 +209,7 @@ body{
 .tabela_habilidades{
   margin-bottom: 5%;
   margin-top: 18%;
-  width: 200%;
+  width: 170%;
   padding-right:20%;
   
 }
