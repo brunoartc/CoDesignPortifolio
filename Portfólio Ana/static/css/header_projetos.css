@@ -1,15 +1,20 @@
 body{
+  
   margin: 0;
 
   font-family: 'Roboto Slab';
- background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
-
+  background: url(https://previews.123rf.com/images/ismagilov/ismagilov1503/ismagilov150300397/38268813-Mathematics-equations-and-formulas-on-a-white-background-Stock-Photo.jpg)  no-repeat center top fixed;
+  background-blend-mode: ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
 
+}
+
+.menu{
+  opacity: 0.9;
 }
 #rolar{
   text-align: right;
