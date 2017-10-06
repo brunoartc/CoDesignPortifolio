@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/menu.css">
+    <link rel="stylesheet" href="static/css/fontes.css">
+    <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href=" https://fonts.google.com/specimen/Raleway" rel="stylesheet">
+    <script type="text/javascript">
+      function toggleMenuOn() {
+        document.getElementById('nav-extra').style.display='none'
+        document.getElementById('nav-init').style.display='flex'
+        document.getElementById('oi').style.display = 'block'
+        document.getElementById('rolar').style.display='none'
+        document.getElementById('p').style.display='none'
+        document.getElementById('exp').style.display='none'
+        document.getElementById('amig').style.display='block'
+
+
+      }
+      function toggleMenuOff() {
+        document.getElementById('nav-extra').style.display='flex'
+        document.getElementById('nav-init').style.display='none'
+        document.getElementById('oi').style.display='none'
+        document.getElementById('rolar').style.display='block'
+        document.getElementById('amig').style.display='none'
+      }
+      
+    </script>
+  
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <img class="logo" src="static/imagens/insper-branco.png" alt="logo">
+      </div>
+      <div class="header-right">
+          <h1 class="fonte12" >Portfólio Ana Henriques</h1>
+    </div>
+     
+   </div>
+  
+    <div  id=oi class="info-main">
+
+      <div class="balao" style="float: right; margin-left: 33%; margin-right: 2%;margin-top:2%;opacity:0.9;background-color:white;border-top-right-radius: 50px;border-bottom-right-radius: 50px;border-top-left-radius: 50px;">
+        <p class="fonte5" style="font-size:40px;color:black; opacity: 0.9" >Olá meu nome é Ana,sou engenheira mecatrônica e este é o início do meu portfólio de projetos!</p></div>
+      <div id=oi class="person">
+        <img id=oi class="person-img" src=https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-1/p240x240/11218888_1141418789221316_4020416595362451803_n.jpg?oh=843e6e3ba40db9b6455ea58881514b7f&oe=5A4ABC15>
+        <a  id=oi class="more-info" href="sobremim.html"><i class="fa fa-info-circle" style="font-size: 30px;margin-top: 5%; margin-left: 30%;padding-left: 5%;" aria-hidden="true"></i><span id=oi style="font-size: 32px"> Sobre Mim</span><a>
+
+      </div>
+
+
+    </div>
+
+    <div class="info-botton">
+      <div class="nav-portifolio" id="nav-init">
+        <a href="projeto_menu.html" class="nav-button " style="font-size:25px">Projetos Acadêmicos</a>
+        <a class="nav-button" onclick="toggleMenuOff()" style="font-size:25px ">Projetos Extracurriculares</a>
+      </div>
+       <div class="amiguinhos" id=amig>
+       
+        <a href="C:\Users\beatr\CoDesignPortifolio\Portifolio Bruno\index.html"><img id=oi class="person3" src=https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAA0MAAAAJGI5NDdmZjFlLWZkN2MtNDZmNC1hYWU2LTEyNmI4ZGYwMjZjMw.jpg></a>
+        <a href=C:\Users\beatr\CoDesignPortifolio\PortifólioJão\index.html><img id=oi class="person3" src=C:\Users\beatr\CoDesignPortifolio\PortifólioJão\static\imagens\perfil.png></a>
+    
+    </div>
+      <style>
+.efeito img{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 1.0; /*esta linha é a que escurece a imagem*/
+ } 
+.efeito img:hover{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.2;} /*esta linha é a que clareia a imagem*/
+.efeito2{ /*esta linha aplica uma borda cor preta na imagem*/
+ opacity: 0.9;} /*esta linha é a que clareia a imagem*/
+
+</style>
+
+       <div class="nav-portifolio efeito"  style='margin-top:11%' id="nav-extra" >
+           <div id="rolar" class="efeito2">
+      <a href="./index.html" id="p"><img src="static/imagens/logohome.png" alt="logohome" class="fotohome"></a>
+      <a href="./sobremim.html" id="p"><img src="static/imagens/info.png" alt="logohome" class="fotohome"></a>
+    </div>
+          
+          <a href="projeto-post.html" class="nav-buttonextra" style="margin-top: 5px" ><h3 style='padding-left:10% ' class="fonte22" >Membro:</h3><img style='width:70%; ' class="efeito" src="static/imagens/post.png" alt="logo"></a>
+          <a href="projeto-techedu.html" class="nav-buttonextra" ><h3 style='margin-right:80px ' class="fonte22">Diretora de Design Thinking :</h3><img style='width:70%; ' class="efeito"  src="static/imagens/techedu.png" alt="logo"></a>
+          <a href="projeto-ismart.html" class="nav-buttonextra" style="margin-top: 5px" ><h3 style='' class="fonte22">Mentoria:</h3><img style='width:70%; '"" src="static/imagens/ismart.png" alt="logo"></a>
+        </div>
+    </div>
+
+      </div>
+
+  </body>
+</html>
