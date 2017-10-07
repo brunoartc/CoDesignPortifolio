@@ -2,7 +2,7 @@
           color:#005643;}
 .fonte2{font:150% Raleway;
           color:#005643;
-         font-size:40;}
+         font-size:200%;}
 .fonte3{font:'Roboto+Slab';
 	       color:black;
          size:80px;
@@ -16,9 +16,14 @@
  	     font-size:23;
  	 }
 .fonte5{font:'Roboto+Slab';
- 	     color:black,
- 	     font-size:30;
+ 	     color:black;
+ 	     font-size:140%;
  	 }
+
+.fonte9{font:150% Raleway;
+          color:#005643;
+         font-size:180%;}
+
 .fonte12{font:250% Raleway;
         color:white;
         margin-left: -2%;
@@ -30,6 +35,8 @@
         margin-top: 3%;
         font-size: 80;
         }
+.fonte10{font:200% Raleway;
+          color:#005643;}
 .fonte21{font:150% Raleway;
           color:#005643;
          margin-left: 2%;
@@ -39,4 +46,7 @@
           color:#005643;
          margin-left: 2%;
          size:80;}
-
+.fontede{font:80%'Roboto+Slab';
+          color:black;
+         font-size:28px;
+        }

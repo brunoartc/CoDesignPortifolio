@@ -1,15 +1,20 @@
 body{
+  
   margin: 0;
- 
-  font-family: 'Roboto Slab';
- background: url(http://tornadowire.ie/wp-content/uploads/2015/12/Irish-Web-Background.jpg) no-repeat center top fixed;
 
+  font-family: 'Roboto Slab';
+  background: url(https://previews.123rf.com/images/ismagilov/ismagilov1503/ismagilov150300397/38268813-Mathematics-equations-and-formulas-on-a-white-background-Stock-Photo.jpg)  no-repeat center top fixed;
+  background-blend-mode: ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
 
+}
+
+.menu{
+  opacity: 0.9;
 }
 #rolar{
   text-align: right;
@@ -22,8 +27,8 @@ body{
   width:9%;
   border-bottom-left-radius: 9px;
   border-top-left-radius: 9px;
-  
- 
+
+
 }
 .fundo{
   background:#f1eae2;
@@ -31,28 +36,28 @@ body{
   margin: 6%;
   box-shadow: 0 4px 50px 0 black;
   margin-top:0;
-  padding-bottom: 50%;
+  padding-bottom: 40%;
 }
 
 .fotohome{
   width:43%;
   padding-right: 3%;
-  
+
 
 }
 .passar1{
   float:left;
   margin-top: -2.5%;
  margin-left:-30%;
- 
 
-  
+
+
 }
 .passar2{
   float:right;
   margin-top: -3%;
   margin-right: -1%;
-  
+
 }
 .nome_projeto{
   text-align: center;
@@ -71,21 +76,20 @@ body{
    margin-left: -10%;
   }
 .main_info {
- 
+
   display: flex;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
+  padding-left:6%;
    
 
 }
 .img_info img{
-  margin-bottom: -40px;
-  margin-top: -2%;
-  margin-left: 10%;
-  float:right;
+  margin-top: -0.5%;
+  float:left;
   border-radius: 10px;
- 
-  
+
+
 }
 
 
@@ -93,44 +97,45 @@ body{
 
 .mySlides{
   margin-top: 10%;
+  margin-left: -10%;
+  margin-bottom: 0;
 
 }
 .img_info{
   align-items: left;
-  width: 70%;
-  margin-right: 15px;
-  margin-left: 15%;
-  margin-top: -2%;
+  width: 100%;
+
+  margin-left: 5%;
+  margin-top: 0;
   border:0;
 
 
 }
 .info{
-  width: 60%;
+  width: 30%;
   margin-top: 8%;
   text-align: left;
   float:left;
   font-size: 22px;
   padding-top: 5%;
   padding-left: 2%;
- 
+
 
 }
 .first_info{
   float:right;
-  width: 50%;
+  width: 55%;
   display: flex;
   margin-left: 2%;
- 
- 
+
+
 }
 .linha1{
   display: flex;
 }
 .linha2{
   display: flex;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  
 }
 .linha3{
   display: flex;
@@ -138,97 +143,90 @@ body{
 .habilidades{
 
   margin-right: 2%;
-  width: 50%; 
-  padding: 1%;
-  float:center;
+  width: 60%;
+  float:right;
 
 }
 .titulo_habilidades{
-  margin-top: 3%;
-  font-size: 20px;
-  text-align: center;
+  margin-top: 9%;
+
+ text-align: center;
+
 }
 .col-1-top{
   padding: 1%;
-  width: 33%;
+  width: 30%;
   text-align: center;
-}
-.col-2-top{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
-  border-left: 3em solid #000080;
-  border-width: thin;
+ 
+  
+  
+  border-top-left-radius: 5px;
+
 }
 .col-3-top{
   padding: 1%;
-  width: 33%;
+  width: 30%;
   text-align: center;
-  border-left: 3em solid #000080;
-  border-right: 3em solid #000080;
+  border-left: 3em solid black;
+ 
+  border-top-right-radius: 5px;
   border-width: thin;
-}
-.col-4-top{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
+  
 }
 .col-1{
   padding: 1%;
-  width: 33%;
+  width: 30%;
+ 
+  border-top: 1px solid black;
   text-align: center;
-}
-.col-2{
-  padding: 1%;
-  width: 16.6%;
-  text-align: center;
-  border-left: 1px solid black;
+
 }
 .col-3{
   padding: 1%;
-  width: 33%;
+  width: 30%;
   text-align: center;
+  border-top: 1px solid black;
   border-left: 1px solid black;
-}
-.col-4{
-  padding: 1%;
-  width: 16.6%;
-  text-align: center;
-  border-left: 1px solid black;
+ 
+ 
 }
 .col-1-down{
   padding: 1%;
-  width: 33%;
+  width: 30%;
   text-align: center;
   border-width: thin;
-}
-.col-2-down{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
-  border-right: 1px solid #000080;
-  border-left: 1px solid #000080;
+ 
+  border-top: 1px solid black;
+  
+  border-bottom-left-radius: 5px;
+  
 }
 .col-3-down{
   padding: 1%;
-  width: 33%;
+  width: 30%;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom-right-radius: 5px;
+
   text-align: center;
-  border-width: thin;
-}
-.col-4-down{
-  padding: 1%;
-  text-align: center;
-  width: 16.6%;
-  border-left: 3em solid #000080;
   border-width: thin;
 }
 .tabela_habilidades{
-  
   margin-bottom: 5%;
-  margin-top: 10%;
+  margin-top: 18%;
+  width: 175%;
+  padding-right:-1%;
+  
 }
 .texto_info{
   display: flex;
+}
+.detalhes-titulo{
+  text-align:center;
+  font:150% Raleway;
+  color:#005643;
+
 }
 .header-left-2{
   position: relative;
@@ -240,11 +238,11 @@ body{
 }
 .detalhes{
   border-radius: 15px;
-  margin-top: 80%;
-  margin:2%;
-  padding: 1%;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
   float:left;
-  
+
 }
 .posi2{
   padding-top: 1%;
@@ -254,6 +252,7 @@ body{
   text-align:center;
   font:200% Raleway;
   color:#005643;
- 
+  padding-right:10%;
+
 
 }
